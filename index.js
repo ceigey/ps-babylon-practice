@@ -1,3 +1,5 @@
 import * as Main from './output/Main'
 
-Main.main()
+window.addEventListener('DOMContentLoaded', () => {
+  Main.main()
+})
